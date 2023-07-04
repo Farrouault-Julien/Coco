@@ -1,19 +1,14 @@
 <script>
-  import About from "./lib/about.svelte";
+  import Ilot from "./lib/ilot.svelte";
+import Navbar from "./lib/Navbar.svelte";
+
+
 
 </script>
 
 <main>
-	<header id="home">
-        <nav id="mebu-bar">
-            <ul>
-                <li><a href="#"><img id="logo" src="/white-logo.png" alt="logo"></a></li>
-                <li class="links"><a href="#">Nous contacter</a></li>
-                <li class="links"><a href="#">Qui-sommes nous</a></li>
-                <li class="links"><a href="#">Creations</a></li>
-            </ul>
-        </nav>
-    </header>
+	<Navbar></Navbar>
+	
 </main>
 
 

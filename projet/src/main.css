@@ -1,0 +1,14 @@
+html {
+    font-family: "Barlow";
+    background: url("gloves.JPG");
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+ul {
+    display: flex;
+
+}
