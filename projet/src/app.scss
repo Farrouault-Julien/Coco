@@ -1,6 +1,17 @@
 html {
     font-family: "Barlow";
-    background: url("IMG_1122.png");
+    background: url("mesh-gradient-5.png");
     background-position: center;
     background-size: cover;
 }
+
+@media only screen and (max-width: 600px) {
+    :root {
+        background: url("shoot.JPG");
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+
+    }
