@@ -10,7 +10,7 @@
 
 <main>
   <Navbar></Navbar>
-  <Work></Work>
+
 
 </main>
 
