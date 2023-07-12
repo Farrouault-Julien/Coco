@@ -12,6 +12,7 @@
 
 ul {
     display: flex;
+    margin-right: 20px;
 
 }
 
@@ -19,12 +20,15 @@ ul {
       color: rgb(255, 255, 254);
       display: inline;
         padding: 10px;
-     font-size: 1.5em;
+     font-size: 1.2em;
+
   }
   #navbar {
+    
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    line-height: 60px;
     border-bottom:rgb(255, 255, 254) 1px solid;
     
 }

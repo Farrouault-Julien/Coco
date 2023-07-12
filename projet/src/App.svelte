@@ -9,8 +9,9 @@
 </script>
 
 <main>
-	<Navbar></Navbar>
-  <Ilot></Ilot>
+  <Navbar></Navbar>
+  <Work></Work>
+
 </main>
 
 
