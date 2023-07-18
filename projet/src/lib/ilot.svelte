@@ -33,7 +33,7 @@
   li {
     color: #f0f0f0;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 40px;
   }
 
   a {
