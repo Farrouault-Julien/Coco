@@ -1,10 +1,13 @@
 <script>
+  import Navbar from "./Navbar.svelte";
+
 </script>
 
 <main>
+  <Navbar></Navbar>
   <section>
     <div class="left">
-      <img id="logo" alt="logo" src="white-logo.png" />
+      <img id="logo" class="scroll" alt="logo" src="white-logo.png" />
       <h1>Une marque éco-responsable <br /> avec des pièces uniques</h1>
       <h3>
         Les laines et les tissus sont uniques et chinés dans différentes
@@ -15,11 +18,15 @@
       </h3>
     </div>
     <div class="right">
-      <img class="rounded-right-img" alt="gants de coco" src="IMG_1122.png" />
+      <img class="rounded-right-img" alt="gants de coco" src="IMG_1260.jpeg" />
     </div>
   </section>
 
   <section>
+    
+    <div class="right">
+      <img class="rounded-right-img" alt="chouchou" src="elodie2.jpg" />
+    </div>
     <div class="left">
       <img id="logo" class="scroll" alt="logo" src="chouchou.PNG" />
       <h1>Une marque crée par <br /> Elodie Cornec 23 ans</h1>
@@ -30,9 +37,6 @@
         étaient devenue sa passion. Au fur et à mesure elle à su développer
         cette passion en créant cette marque.
       </h3>
-    </div>
-    <div class="right">
-      <img class="rounded-right-img" alt="chouchou" src="IMG_6792.png" />
     </div>
   </section>
 
@@ -57,15 +61,15 @@
 </main>
 
 <style>
+
   /* LEFT SIDE */
-
-
+    
   section {
     width: 100%;
     height: 100%;
     display: flex;
     scroll-snap-stop: always;
-    border-bottom: 1px dashed white;
+
   }
 
   .left {
@@ -112,7 +116,7 @@
     justify-content: center;
   }
   .rounded-right-img {
-    margin-top: 15%;
+    margin-top: 10%;
     width: 500px;
     height: 500px;
     border-radius: 50%;

@@ -1,36 +1,74 @@
-<div id="home_container">
+<script>
+  import { fade, slide, blur } from "Svelte/transition";
+  import Navbar from "./Navbar.svelte";
+  import { link } from "svelte-spa-router";
+</script>
 
-  <img id="logo" src="white-logo.png" />
+<main>
+  <div class="home">
+    <div id="home_container">
+      <img transition:blur= {{duration: 1000}} id="logo" src="white-logo.png" />
+      <ul>
+        <a href="/work" use:link><li class="links" id="first_link">Créations</li></a
+        >
+        <a href="/about" use:link><li class="links">Qui-sommes-nous</li></a>
+        <a href="/contact" use:link><li class="links">Contact</li></a>
+        <a href="/shop" use:link><li class="links">Chez Coco</li></a>
 
-  <img id="img1" src="output.PNG" />
-  <img id="img2" src="photo-output 8.PNG" />
-  <img id="img3" src="photo-output 9.PNG" />
+      </ul>
 
-
-</div>
+    </div>
+  </div>
+</main>
 
 <style>
 
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  li {
+    color: #f0f0f0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+  .home {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: url("IMG_1122.png");
+    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
   #home_container {
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-      height: 90vh;
-      
-  } 
-  
- 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+  }
+
   #logo {
-    margin-top: 15%;
+    margin-top: 20%;
+    width: 350px;
     height: 200px;
-    position: absolute;
-    left: 50px;
+    left: 20px;
   }
 
   @media only screen and (max-width: 600px) {
     #logo {
       width: 80%;
-      
     }
 
     #img1 {
@@ -42,6 +80,5 @@
     #img3 {
       visibility: hidden;
     }
-
   }
 </style>
