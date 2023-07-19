@@ -71,14 +71,5 @@
       width: 80%;
     }
 
-    #img1 {
-      visibility: hidden;
-    }
-    #img2 {
-      visibility: hidden;
-    }
-    #img3 {
-      visibility: hidden;
-    }
   }
 </style>

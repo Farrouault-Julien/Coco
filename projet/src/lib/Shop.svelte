@@ -1,5 +1,7 @@
 <script>
+
   import Navbar from "./Navbar.svelte";
+  import { fly } from 'svelte/transition';
 </script>
 
 <main>
@@ -8,10 +10,10 @@
 
     <div class="header">
       <div class="header-logo">
-        <h1>CHEZ COCO</h1>
+        <h1 transition:fly={{ x: -200, duration: 2000 }} >CHEZ COCO</h1>
       </div>
       <div class="summary">
-        <h3>
+        <h3 transition:fly={{ x: 200, duration: 2000 }}>
           Une boutique familliale mettant en avant l'art du cuir, du fusing et
           les petits créateurs
         </h3>
@@ -98,7 +100,7 @@
     padding: 0;
     margin: 0;
     height: 420vh;
-    background: url("mesh-gradient-7.png");
+    background-color: rgb(25, 40, 31);
     background-size: 100% 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -131,7 +133,7 @@
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 25px;
     width: 30%;
     text-align: center;
   }
@@ -178,7 +180,7 @@
 
   p {
     width: 50%;
-    font-size: 20px;
+    font-size: 25px;
     justify-content: center;
     align-items: center;
     border-left: 1px solid white;
