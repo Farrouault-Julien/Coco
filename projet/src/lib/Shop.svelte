@@ -20,7 +20,7 @@
     </div>
     <div class="main">
       <div class="left">
-        <img class="main-photo" src="IMG_6228.jpeg" alt="devanture" />
+        <img class="main-photo" src="IMG_6228.jpeg" alt="Giuseppe" />
       </div>
 
       <div class="right">
@@ -29,12 +29,60 @@
           Coppola et sous le nom de « Galerie d’Art » depuis 35 ans dans tous
           les coins de la France. Celle ci met en avant l’art du cuir, les
           créations artisanales, et le fusing. Implantée sur Dinan depuis 14
-          ans, elle à su se developper en proposition. Aujourd’hui cette
-          boutique à été reprise par Chloé et Elodie Cornec - Coppola, ses
-          filles. Elles ont agrandit la boutique, en créant différents espaces
-          distinct tout en gardant le savoir faire de l’enseigne. Le premier
-          partie expose l’art du cuir et du verre, et la seconde propose un lieu
-          d’exposition de jeunes créateurs dont une friperie, et une brocante.
+          ans, elle à su se developper en proposition.
+        </p>
+        <p>
+          Aujourd’hui cette boutique à été reprise par Chloé et Elodie Cornec -
+          Coppola, ses filles. Elles ont agrandit la boutique, en créant
+          différents espaces distinct tout en gardant le savoir faire de
+          l’enseigne. Le premier partie expose l’art du cuir et du verre, et la
+          seconde propose un lieu d’exposition de jeunes créateurs dont une
+          friperie, et une brocante.
+        </p>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="right">
+        <p>
+          Chez coco est maintenant repris par Chloé 19 ans et Elodie 23 ans,
+          deux artistes couturières aimant les loisirs créatifs. Elle est
+          devenue une boutique de petits créateurs tout en gardant l’art du cuir
+          fait sur mesure et du verre transmis par leurs père. Baignant dans
+          l’art, elles ont ajouté leurs créations au lieu, vous y trouverez des
+          sacs fait main, des mitaines tricotés, des bonnets en crochets ainsi
+          que des portes gourdes etc...
+        </p>
+        <p>
+          Vous y retrouverez également des créations de Clement Coppola autour
+          du verre. De la photographie fait par Gregoire Garnier. Ainsi que des
+          illustrations d’Adele Vuillemot une graphiste. Et pleins d’autres à
+          venir...
+        </p>
+      </div>
+
+      <div class="left">
+        <img class="main-photo" src="IMG_5800.jpeg" alt="devanture" />
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="left">
+        <img class="main-photo" src="IMG_5787.jpeg" alt="interieur-boutique" />
+      </div>
+
+      <div class="right">
+        <p>
+          14 rue de l’horloge 22100 Dinan En face de la tour de l’horloge
+          Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
+        </p>
+        <p>
+          Lundi 11h -18h30 <br> Mardi 11h - 18h30 <br>Mercredi 11h - 18h30<br> Jeudi Fermé
+          <br>Vendredi 11h - 18h 30 <br>Samedi 11h - 18h 30 <br>Dimanche Fermé
+        </p>
+        <p>
+          14 rue de l’horloge 22100 Dinan<br> En face de la tour de l’horloge<br>
+          Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
         </p>
       </div>
     </div>
@@ -49,7 +97,7 @@
   .shop_wrapper {
     padding: 0;
     margin: 0;
-    height: 1000vh;
+    height: 420vh;
     background: url("mesh-gradient-7.png");
     background-size: 100% 100%;
     background-size: cover;
@@ -103,6 +151,7 @@
   }
   .left {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 50%;
@@ -111,6 +160,7 @@
   .right {
     width: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
@@ -134,5 +184,6 @@
     border-left: 1px solid white;
     padding-left: 20px;
     line-height: 1.2em;
+    margin-top: 20px;
   }
 </style>
