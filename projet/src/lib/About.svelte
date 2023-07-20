@@ -1,163 +1,234 @@
 <script>
   import Navbar from "./Navbar.svelte";
-
+  import { fly } from "svelte/transition";
 </script>
 
 <main>
-  <Navbar></Navbar>
-  <section>
-    <div class="left">
-      <img id="logo" class="scroll" alt="logo" src="white-logo.png" />
-      <h1>Une marque éco-responsable <br /> avec des pièces uniques</h1>
-      <h3>
-        Les laines et les tissus sont uniques et chinés dans différentes
-        ressourcerie ou bien récupérées de vieux vêtements. Bonnets, portes
-        gourdes, pochettes, top bag, sac bandoulière, écharpe, et mitaines sont
-        fait mains avec des matières premières récupérée. Dans le but de
-        respecter notre planète.
-      </h3>
-    </div>
-    <div class="right">
-      <img class="rounded-right-img" alt="gants de coco" src="IMG_1260.jpeg" />
-    </div>
-  </section>
+  <div class="shop_wrapper">
+    <Navbar />
 
-  <section>
-    
-    <div class="right">
-      <img class="rounded-right-img" alt="chouchou" src="elodie2.jpg" />
+    <div class="header">
+      <div class="header-logo">
+        <img
+          transition:fly={{ x: -200, duration: 2000 }}
+          id="summary-logo"
+          src="white-logo.png"
+          alt="logo"
+        />
+      </div>
+      <div class="summary">
+        <div class="icon">
+          <div class="fa-icon">
+            <i
+              class="fa-solid fa-recycle fa-spin fa-4x"
+              style="color: #f0000;"
+            />
+          </div>
+          <div class="under-icon-texte">
+            <h3>Des matériaux chinés<br /> et/ou recylés</h3>
+          </div>
+        </div>
+        <div class="icon">
+          <div class="fa-icon">
+            <i
+              class="fa-solid fa-puzzle-piece fa-beat-fade fa-4x"
+              style="color: #ffffff;"
+            />
+          </div>
+          <div class="under-icon-texte">
+            <h3>Des pièces uniques</h3>
+          </div>
+        </div>
+        <div class="icon">
+          <div class="fa-icon">
+            <i class="fa-regular fa-hand fa-bounce fa-4x" style="color: #ffffff;"></i>
+          </div>
+          <div class="under-icon-texte">
+            <h3>Handmade</h3>
+          </div>
+        </div>
+      </div>
+      <div class="border" />
     </div>
-    <div class="left">
-      <img id="logo" class="scroll" alt="logo" src="chouchou.PNG" />
-      <h1>Une marque crée par <br /> Elodie Cornec 23 ans</h1>
-      <h3>
-        Depuis petite elodie aime créer de ses mains. Manuelle il lui est venue
-        naturellement le tricot, le crochet et la couture. Après une école de
-        design Produit, elle s’est rendue compte que ces arts autour du fil
-        étaient devenue sa passion. Au fur et à mesure elle à su développer
-        cette passion en créant cette marque.
-      </h3>
-    </div>
-  </section>
+    <div class="main">
+      <div class="left">
+        <img class="main-photo" src="IMG_1122.png" alt="Giuseppe" />
+      </div>
 
-  <section>
-    <div class="left">
-      <img id="logo" class="scroll" alt="logo" src="white-logo.png" />
-      <h1>Où nous trouver ?</h1>
-      <h3>
-        Vous pouvez retrouver nos créations chez Soleil noir friperie 3 rue pont
-        aux Foulons sur Rennes Ou bien sur Dinan dans la boutique chez coco au
-        14 rue de l’horloge 22100 Dinan Lien de google plan :
-        https://goo.gl/maps/kUKt1fMeCEdXaBYC6 Et également prendre des commandes
-        sur Instagram en Dm sur @cocoprendlethe Le mail pour la contacter : <mailto
-          >elodie.cornec@hotmail.fr</mailto
-        > 0672512390
-      </h3>
+      <div class="right">
+        <p>
+          Chez coco est une boutique familiale, auparavant tenue par Giuseppe
+          Coppola et sous le nom de « Galerie d’Art » depuis 35 ans dans tous
+          les coins de la France. Celle ci met en avant l’art du cuir, les
+          créations artisanales, et le fusing. Implantée sur Dinan depuis 14
+          ans, elle à su se developper en proposition.
+        </p>
+        <p>
+          Aujourd’hui cette boutique à été reprise par Chloé et Elodie Cornec -
+          Coppola, ses filles. Elles ont agrandit la boutique, en créant
+          différents espaces distinct tout en gardant le savoir faire de
+          l’enseigne. Le premier partie expose l’art du cuir et du verre, et la
+          seconde propose un lieu d’exposition de jeunes créateurs dont une
+          friperie, et une brocante.
+        </p>
+      </div>
     </div>
-    <div class="right">
-      <img class="rounded-right-img" alt="gants de coco" src="IMG_6947.jpeg" />
+
+    <div class="main">
+      <div class="right">
+        <p>
+          Chez coco est maintenant repris par Chloé 19 ans et Elodie 23 ans,
+          deux artistes couturières aimant les loisirs créatifs. Elle est
+          devenue une boutique de petits créateurs tout en gardant l’art du cuir
+          fait sur mesure et du verre transmis par leurs père. Baignant dans
+          l’art, elles ont ajouté leurs créations au lieu, vous y trouverez des
+          sacs fait main, des mitaines tricotés, des bonnets en crochets ainsi
+          que des portes gourdes etc...
+        </p>
+        <p>
+          Vous y retrouverez également des créations de Clement Coppola autour
+          du verre. De la photographie fait par Gregoire Garnier. Ainsi que des
+          illustrations d’Adele Vuillemot une graphiste. Et pleins d’autres à
+          venir...
+        </p>
+      </div>
+
+      <div class="left">
+        <img class="main-photo" src="IMG_5800.jpeg" alt="devanture" />
+      </div>
     </div>
-  </section>
+
+    <div class="main">
+      <div class="left">
+        <img class="main-photo" src="elodie.jpg" alt="elodie" />
+      </div>
+
+      <div transition:fly={{ x: 200, duration: 2000 }} class="right">
+        <p>
+          14 rue de l’horloge 22100 Dinan En face de la tour de l’horloge
+          Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
+        </p>
+        <p>
+          Lundi 11h -18h30 <br /> Mardi 11h - 18h30 <br />Mercredi 11h - 18h30<br
+          />
+          Jeudi Fermé
+          <br />Vendredi 11h - 18h 30 <br />Samedi 11h - 18h 30 <br />Dimanche
+          Fermé
+        </p>
+        <p>
+          14 rue de l’horloge 22100 Dinan<br /> En face de la tour de l’horloge<br
+          />
+          Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
+        </p>
+      </div>
+    </div>
+  </div>
 </main>
 
 <style>
-
-  /* LEFT SIDE */
-    
-  section {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    scroll-snap-stop: always;
-
-  }
-
-  .left {
-
-    height: 100vh;
+  main {
     font-family: "Barlow";
-    width: 50%;
-    padding-left: 30px;
     color: rgb(255, 255, 254);
   }
+  .shop_wrapper {
+    padding: 0;
+    margin: 0;
+    height: 500vh;
+    background-color: rgb(213, 61, 36);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
 
-  h1 {
-    padding-top: 100px;
-    font-size: 50px;
-    line-height: 50px;
-    font-weight: 400;
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #summary-logo {
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  .summary {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .fa-icon {
+    padding-left: 45%;
+  }
+
+  .icon {
+    width: 30%;
   }
 
   h3 {
-    line-height: 20px;
-    padding-top: 50px;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .border {
+    width: 200px;
+    border: 1px solid white;
+    margin-left: 44%;
+    margin-top: 40px;
+  }
+
+  /* SECOND SLIDE */
+
+  .main {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+  }
+  .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    font-size: 17px;
-    font-weight: lighter;
-    }
-
-  #logo {
-    padding-top: 50px;
-    width: 290px;
-    height: 158px;
   }
-
-  .scroll {
-    visibility: hidden;
-  }
-
-
-
-  /* RIGHT SIDE */
 
   .right {
-    display: flex;
     width: 50%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
-  .rounded-right-img {
-    margin-top: 10%;
-    width: 500px;
-    height: 500px;
-    border-radius: 25%;
-    border: 1px white solid;
+  .main-photo {
+    width: 479px;
+    height: 619px;
+  }
+
+  img {
+    border-radius: 25px;
+    border: 1px solid white;
     padding: 20px;
+    object-fit: cover;
   }
 
-  @media only screen and (max-width: 600px) {
-    section {
-      flex-direction: column;
-    }
-
-    .rounded-right-img {
-      border-radius: 25%;
-      border: 1px white solid;
-      padding: 20px;
-      width: 300px;
-      height: 300px;
-    }
-
-    .left {
-      width: 100%;
-      padding-right: 30px;
-    }
-
-    .right {
-      width: 100%;
-      padding-right: 30px;
-    }
-    #logo {
-    padding-top: 30px;
-    width: 270px;
-    height: 158px;
-    margin-left: 15%;
-   }
-   h1 {
-     padding-top: 30px;
-   }
-   h3 {
-     position: relative;
-     width: 100%;
-   }
+  p {
+    width: 50%;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid white;
+    padding-left: 20px;
+    line-height: 1.2em;
+    margin-top: 20px;
   }
 </style>

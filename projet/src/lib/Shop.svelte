@@ -25,7 +25,7 @@
         <img class="main-photo" src="IMG_6228.jpeg" alt="Giuseppe" />
       </div>
 
-      <div class="right">
+      <div  class="right">
         <p>
           Chez coco est une boutique familiale, auparavant tenue par Giuseppe
           Coppola et sous le nom de « Galerie d’Art » depuis 35 ans dans tous
@@ -73,7 +73,7 @@
         <img class="main-photo" src="IMG_5787.jpeg" alt="interieur-boutique" />
       </div>
 
-      <div class="right">
+      <div transition:fly={{ x: 200, duration: 2000 }} class="right">
         <p>
           14 rue de l’horloge 22100 Dinan En face de la tour de l’horloge
           Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
@@ -99,7 +99,7 @@
   .shop_wrapper {
     padding: 0;
     margin: 0;
-    height: 420vh;
+    height: 500vh;
     background-color: rgb(25, 40, 31);
     background-size: 100% 100%;
     background-size: cover;
@@ -148,7 +148,7 @@
 
   .main {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     display: flex;
   }
   .left {
