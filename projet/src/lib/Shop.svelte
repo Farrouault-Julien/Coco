@@ -11,6 +11,9 @@
       <div class="header-logo">
         <h1>CHEZ COCO</h1>
       </div>
+      <div class="arrow">
+        <i class="fa-regular fa-arrow-down fa-bounce fa-3x" style="color: #ffffff;"></i>
+      </div>
       <div class="summary">
         <h3>
           Une boutique familliale mettant en avant l'art du cuir, du fusing et
@@ -80,10 +83,10 @@
         </p>
         <p class="title">Horaires :</p>
         <p>
-          Lundi 11h -18h30 <br> Mardi 11h - 18h30 <br>Mercredi 11h - 18h30<br> Jeudi Fermé
-          <br>Vendredi 11h - 18h 30 <br>Samedi 11h - 18h 30 <br>Dimanche Fermé
+          Lundi 11h -18h30 <br> Mardi 11h - 18h30 <br>Mercredi 11h - 18h30<br> Jeudi : Fermé
+          <br>Vendredi 11h - 18h 30 <br>Samedi 11h - 18h 30 <br>Dimanche : Fermé
         </p>
-        <p class="title">Lien Maps </p>
+        <p class="title">Lien Maps ci-dessous :</p>
         <a href="https://goo.gl/maps/kUKt1fMeCEdXaBYC6" ><i class="fa-solid fa-map-location-dot fa-beat-fade fa-4x" style="color: #ffffff;"></i></a> 
       </div>
     </div>
@@ -135,6 +138,12 @@
     font-size: 25px;
     width: 30%;
     text-align: center;
+  }
+
+  .arrow {
+    position: absolute;
+    left: 80px;
+    bottom: 80px;
   }
 
   .border {
@@ -191,5 +200,9 @@
     border: none;
     text-decoration: underline;
     
+  }
+
+  a {
+    padding-top: 30px;
   }
 </style>
