@@ -1,5 +1,4 @@
 <script>
-  import { fade, slide, blur } from "Svelte/transition";
   import Navbar from "./Navbar.svelte";
   import { link } from "svelte-spa-router";
 </script>
@@ -7,7 +6,7 @@
 <main>
   <div class="home">
     <div id="home_container">
-      <img transition:blur= {{duration: 1000}} id="logo" src="white-logo.png" />
+      <img id="logo" alt="logo" src="white-logo.png" />
       <ul>
         <a href="/work" use:link><li class="links" id="first_link">Créations</li></a
         >

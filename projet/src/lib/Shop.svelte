@@ -1,7 +1,6 @@
 <script>
 
   import Navbar from "./Navbar.svelte";
-  import { fly } from 'svelte/transition';
 </script>
 
 <main>
@@ -10,10 +9,10 @@
 
     <div class="header">
       <div class="header-logo">
-        <h1 transition:fly={{ x: -200, duration: 2000 }} >CHEZ COCO</h1>
+        <h1>CHEZ COCO</h1>
       </div>
       <div class="summary">
-        <h3 transition:fly={{ x: 200, duration: 2000 }}>
+        <h3>
           Une boutique familliale mettant en avant l'art du cuir, du fusing et
           les petits créateurs
         </h3>
@@ -73,19 +72,19 @@
         <img class="main-photo" src="IMG_5787.jpeg" alt="interieur-boutique" />
       </div>
 
-      <div transition:fly={{ x: 200, duration: 2000 }} class="right">
+      <div class="right">
+        <p class="title">Où nous-trouver ? </p>
         <p>
-          14 rue de l’horloge 22100 Dinan En face de la tour de l’horloge
+          14 rue de l’horloge 22100 Dinan<br>  En face de la tour de l’horloge
           Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
         </p>
+        <p class="title">Horaires :</p>
         <p>
           Lundi 11h -18h30 <br> Mardi 11h - 18h30 <br>Mercredi 11h - 18h30<br> Jeudi Fermé
           <br>Vendredi 11h - 18h 30 <br>Samedi 11h - 18h 30 <br>Dimanche Fermé
         </p>
-        <p>
-          14 rue de l’horloge 22100 Dinan<br> En face de la tour de l’horloge<br>
-          Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
-        </p>
+        <p class="title">Lien Maps </p>
+        <a href="https://goo.gl/maps/kUKt1fMeCEdXaBYC6" ><i class="fa-solid fa-map-location-dot fa-beat-fade fa-4x" style="color: #ffffff;"></i></a> 
       </div>
     </div>
   </div>
@@ -180,12 +179,17 @@
 
   p {
     width: 50%;
-    font-size: 25px;
+    font-size: 22px;
     justify-content: center;
     align-items: center;
     border-left: 1px solid white;
     padding-left: 20px;
     line-height: 1.2em;
     margin-top: 20px;
+  }
+  .title {
+    border: none;
+    text-decoration: underline;
+    
   }
 </style>

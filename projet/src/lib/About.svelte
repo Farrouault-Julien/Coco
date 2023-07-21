@@ -1,16 +1,14 @@
 <script>
   import Navbar from "./Navbar.svelte";
-  import { fly } from "svelte/transition";
+
 </script>
 
 <main>
   <div class="shop_wrapper">
     <Navbar />
-
     <div class="header">
       <div class="header-logo">
         <img
-          transition:fly={{ x: -200, duration: 2000 }}
           id="summary-logo"
           src="white-logo.png"
           alt="logo"
@@ -103,7 +101,7 @@
         <img class="main-photo" src="elodie.jpg" alt="elodie" />
       </div>
 
-      <div transition:fly={{ x: 200, duration: 2000 }} class="right">
+      <div class="right">
         <p>
           14 rue de l’horloge 22100 Dinan En face de la tour de l’horloge
           Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
