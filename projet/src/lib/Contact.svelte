@@ -8,7 +8,8 @@
   <div class="contact-wrapper">
     <div class="contact-main-bloc">
       <img id="logo" alt="logo" src="white-logo.png" />
-      <div class="contact-bloc">
+      <div class="info-main-bloc">
+        <div class="contact-bloc">
         <h3>En vente chez Soleil noir friperie :</h3>
         <h4>3 rue pont aux Foulons à Rennes</h4>
         <a href="#" />
@@ -31,11 +32,19 @@
         <h4>mail :<mailto /></h4>
         <h4>tel :</h4>
       </div>
+      </div>
+      
     </div>
   </div>
 </main>
 
 <style>
+
+@media only screen and (max-width: 600px) {
+  .contact-main-bloc {
+    flex-direction: column;
+  }
+}
   main {
     font-family: "Barlow";
     color: rgb(255, 255, 254);
@@ -50,15 +59,29 @@
   }
 
   .contact-main-bloc {
-    border: 1px solid white;
-    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
   }
 
   .contact-bloc {
+    padding-top: 20px;
     width: 40%;
+    font-size: 15px;
   }
 
   img {
-    width: 400px;
+    width: 300px;
   }
+
+  h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+  }
+
+  .info-main-bloc {
+    margin-left: 60px;
+  }
+
 </style>

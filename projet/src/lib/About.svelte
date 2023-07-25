@@ -124,6 +124,8 @@
 </main>
 
 <style>
+
+  
   main {
     font-family: "Barlow";
     color: rgb(255, 255, 254);
