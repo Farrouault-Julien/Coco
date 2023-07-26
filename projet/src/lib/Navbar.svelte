@@ -12,7 +12,7 @@
     <a href="/about" use:link><li class="links">Qui-sommes-nous</li></a>
     <a href="/contact" use:link><li class="links">Contact</li></a>
     <a href="/shop" use:link><li class="links">Chez Coco</li></a>
-    <a href="/MobileNavbar" use:link
+    <a href="/menu" use:link
       ><li class="mobile">
         <i class="fa-sharp fa-solid fa-bars fa-2xl" style="color: #ffffff;" />
       </li></a
