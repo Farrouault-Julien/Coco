@@ -125,6 +125,21 @@
 
 <style>
 
+@media only screen and (max-width: 600px) {
+
+  #summary-logo {
+    width: 50%;
+
+  }
+  .summary {
+    flex-direction: column;
+  }
+
+  .main {
+    visibility: hidden;
+  }
+}
+
   
   main {
     font-family: "Barlow";
