@@ -133,11 +133,35 @@
   }
 
   .main {
-    flex-direction: column;
+   flex-direction: column;
+   scroll-snap-type: none;
+
+   height: 800px;
+   
   }
 
   .main-photo {
-    width: 200px;
+    max-width: 800px;
+    max-height: 500px;
+    margin-left: 100%;
+    border: none;
+    padding: 0;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    margin-right: 100%;
+  }
+
+  p {
+    max-width: 100%;
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
   }
 
 
@@ -213,7 +237,6 @@
   }
   .left {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 50%;
@@ -240,7 +263,7 @@
 
   p {
     width: 50%;
-    font-size: 25px;
+    
     justify-content: center;
     align-items: center;
     border-left: 1px solid white;
