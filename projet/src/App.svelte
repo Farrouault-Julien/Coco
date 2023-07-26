@@ -6,6 +6,7 @@
   import Navbar from "./lib/Navbar.svelte";
   import Work from "./lib/Work.svelte";
   import Shop from "./lib/Shop.svelte"
+  import Mobile_navbar from './lib/Mobile_navbar.svelte';
 
   const routes = {
     '/': Ilot,
@@ -13,6 +14,7 @@
     '/work': Work,
     '/contact': Contact,
     '/shop' : Shop,
+    '/menu' : Mobile_navbar
   }
 
 </script>
