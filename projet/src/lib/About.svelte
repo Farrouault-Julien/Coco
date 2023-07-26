@@ -128,16 +128,19 @@
 @media only screen and (max-width: 600px) {
 
   #summary-logo {
-    width: 50%;
+    width: 40%;
 
-  }
-  .summary {
-    flex-direction: column;
   }
 
   .main {
-    visibility: hidden;
+    flex-direction: column;
   }
+
+  .main-photo {
+    width: 200px;
+  }
+
+
 }
 
   
@@ -150,7 +153,6 @@
     margin: 0;
     height: 500vh;
     background-color: rgb(213, 61, 36);
-    background-size: 100% 100%;
     background-size: cover;
     background-attachment: fixed;
   }
