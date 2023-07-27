@@ -61,6 +61,7 @@
           étaient devenue sa passion. Au fur et à mesure elle à su développer
           cette passion en créant cette marque.
         </p>
+        <div class="border"></div>
       </div>
     </div>
 
@@ -77,6 +78,7 @@
           mains avec des matières premières récupérée. Dans le but de respecter
           notre planète.
         </p>
+        <div class="border"></div>
       </div>
     </div>
 
@@ -100,6 +102,7 @@
           @cocoprendlethe Le mail pour la contacter : elodie.cornec@hotmail.fr
           0672512390
         </p>
+        <div class="border"></div>
       </div>
     </div>
   </div>
@@ -194,5 +197,10 @@
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+  }
+  .border {
+    border: 1px solid white;
+    width: 10%;
+    margin-left: 45%;
   }
 </style>

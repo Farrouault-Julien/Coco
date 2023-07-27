@@ -71,17 +71,18 @@
   }
 
   img {
-    width: 300px;
+    width: 100px;
   }
 
   h3 {
     margin-bottom: 10px;
-    font-size: 20px;
+    text-align: center;
     
   }
 
   .info-main-bloc {
-    margin-left: 60px;
+    margin-left: 35%;
+
   }
 
 </style>
