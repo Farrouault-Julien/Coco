@@ -1,6 +1,5 @@
 <script>
   import Navbar from "./Navbar.svelte";
-
 </script>
 
 <main>
@@ -8,11 +7,7 @@
     <Navbar />
     <div class="header">
       <div class="header-logo">
-        <img
-          id="summary-logo"
-          src="white-logo.png"
-          alt="logo"
-        />
+        <img id="summary-logo" src="white-logo.png" alt="logo" />
       </div>
       <div class="summary">
         <div class="icon">
@@ -39,7 +34,10 @@
         </div>
         <div class="icon">
           <div class="fa-icon">
-            <i class="fa-regular fa-hand fa-bounce fa-4x" style="color: #ffffff;"></i>
+            <i
+              class="fa-regular fa-hand fa-bounce fa-4x"
+              style="color: #ffffff;"
+            />
           </div>
           <div class="under-icon-texte">
             <h3>Handmade</h3>
@@ -55,44 +53,29 @@
 
       <div class="right">
         <p>
-          Chez coco est une boutique familiale, auparavant tenue par Giuseppe
-          Coppola et sous le nom de « Galerie d’Art » depuis 35 ans dans tous
-          les coins de la France. Celle ci met en avant l’art du cuir, les
-          créations artisanales, et le fusing. Implantée sur Dinan depuis 14
-          ans, elle à su se developper en proposition.
-        </p>
-        <p>
-          Aujourd’hui cette boutique à été reprise par Chloé et Elodie Cornec -
-          Coppola, ses filles. Elles ont agrandit la boutique, en créant
-          différents espaces distinct tout en gardant le savoir faire de
-          l’enseigne. Le premier partie expose l’art du cuir et du verre, et la
-          seconde propose un lieu d’exposition de jeunes créateurs dont une
-          friperie, et une brocante.
+          Coco prend le thé est une marque crée par Elodie Cornec 23 ans. Depuis
+          petite elodie aime créer de ses mains. Manuelle il lui est venue
+          naturellement le tricot, le crochet et la couture. Après une école de
+          design Produit, elle s’est rendue compte que ces arts autour du fil
+          étaient devenue sa passion. Au fur et à mesure elle à su développer
+          cette passion en créant cette marque.
         </p>
       </div>
     </div>
 
     <div class="main">
-      <div class="right">
-        <p>
-          Chez coco est maintenant repris par Chloé 19 ans et Elodie 23 ans,
-          deux artistes couturières aimant les loisirs créatifs. Elle est
-          devenue une boutique de petits créateurs tout en gardant l’art du cuir
-          fait sur mesure et du verre transmis par leurs père. Baignant dans
-          l’art, elles ont ajouté leurs créations au lieu, vous y trouverez des
-          sacs fait main, des mitaines tricotés, des bonnets en crochets ainsi
-          que des portes gourdes etc...
-        </p>
-        <p>
-          Vous y retrouverez également des créations de Clement Coppola autour
-          du verre. De la photographie fait par Gregoire Garnier. Ainsi que des
-          illustrations d’Adele Vuillemot une graphiste. Et pleins d’autres à
-          venir...
-        </p>
-      </div>
-
       <div class="left">
         <img class="main-photo" src="IMG_5800.jpeg" alt="devanture" />
+      </div>
+      <div class="right">
+        <p>
+          Cette marque eco-responssable, crée des pièces uniques. Les laines et
+          les tissus sont uniques et chinés dans différentes ressourcerie ou
+          bien récupérées de vieux vêtements. Bonnets, portes gourdes,
+          pochettes, top bag, sac bandoulière, écharpe, et mitaines sont fait
+          mains avec des matières premières récupérée. Dans le but de respecter
+          notre planète.
+        </p>
       </div>
     </div>
 
@@ -103,20 +86,18 @@
 
       <div class="right">
         <p>
-          14 rue de l’horloge 22100 Dinan En face de la tour de l’horloge
-          Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
+          Vous pouvez retrouver ses créations chez Soleil noir friperie 3 rue
+          pont aux Foulons sur Rennes
         </p>
         <p>
-          Lundi 11h -18h30 <br /> Mardi 11h - 18h30 <br />Mercredi 11h - 18h30<br
-          />
-          Jeudi Fermé
-          <br />Vendredi 11h - 18h 30 <br />Samedi 11h - 18h 30 <br />Dimanche
-          Fermé
+          Ou bien sur Dinan dans la boutique chez coco au 14 rue de l’horloge
+          22100 Dinan Lien de google plan :
+          https://goo.gl/maps/kUKt1fMeCEdXaBYC6
         </p>
         <p>
-          14 rue de l’horloge 22100 Dinan<br /> En face de la tour de l’horloge<br
-          />
-          Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
+          Et également prendre des commandes sur Instagram en Dm sur
+          @cocoprendlethe Le mail pour la contacter : elodie.cornec@hotmail.fr
+          0672512390
         </p>
       </div>
     </div>
@@ -124,50 +105,6 @@
 </main>
 
 <style>
-
-@media only screen and (max-width: 600px) {
-
-  #summary-logo {
-    width: 40%;
-
-  }
-
-  .main {
-   flex-direction: column;
-   scroll-snap-type: none;
-
-   height: 800px;
-   
-  }
-
-  .main-photo {
-    max-width: 800px;
-    max-height: 500px;
-    margin-left: 100%;
-    border: none;
-    padding: 0;
-  }
-
-  .left {
-    width: 100%;
-  }
-
-  .right {
-    width: 100%;
-    margin-right: 100%;
-  }
-
-  p {
-    max-width: 100%;
-    font-size: 10px;
-    margin: 0;
-    padding: 0;
-  }
-
-
-}
-
-  
   main {
     font-family: "Barlow";
     color: rgb(255, 255, 254);
@@ -175,7 +112,7 @@
   .shop_wrapper {
     padding: 0;
     margin: 0;
-    height: 500vh;
+    height: 400vh;
     background-color: rgb(213, 61, 36);
     background-size: cover;
     background-attachment: fixed;
@@ -221,54 +158,41 @@
     text-align: center;
   }
 
-  .border {
-    width: 200px;
-    border: 1px solid white;
-    margin-left: 44%;
-    margin-top: 40px;
-  }
-
-  /* SECOND SLIDE */
-
   .main {
-    width: 100%;
-    height: 120vh;
     display: flex;
-  }
-  .left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-  }
-
-  .right {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
   }
   .main-photo {
-    width: 479px;
-    height: 619px;
+    height: fit-content;
+    width: 100%;
+    height: 100%;
   }
 
   img {
-    border-radius: 25px;
-    border: 1px solid white;
-    padding: 20px;
+    width: 100%;
     object-fit: cover;
   }
 
-  p {
-    width: 50%;
-    
+  .left {
+    width: 100%;
+    height: 300px;
+    display: flex;
     justify-content: center;
-    align-items: center;
-    border-left: 1px solid white;
+  }
+
+  .right {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  p {
+    font-size: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
-    line-height: 1.2em;
-    margin-top: 20px;
+    padding-right: 20px;
+    text-align: center;
   }
 </style>
