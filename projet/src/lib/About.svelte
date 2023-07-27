@@ -6,8 +6,8 @@
   <div class="shop_wrapper">
     <Navbar />
     <div class="header">
-      <div class="header-logo">
-        <img id="summary-logo" src="white-logo.png" alt="logo" />
+      <div class="header-intro">
+        <h1>Qui-Sommes-nous ?</h1>
       </div>
       <div class="summary">
         <div class="icon">
@@ -46,6 +46,7 @@
       </div>
       <div class="border" />
     </div>
+    
     <div class="main">
       <div class="left">
         <img class="main-photo" src="IMG_1122.png" alt="Giuseppe" />
@@ -121,31 +122,30 @@
   .header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 100%;
     height: 100vh;
-  }
-  .header-logo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 10%;
   }
 
-  #summary-logo {
-    border: none;
-    margin-bottom: 20px;
+  .header-intro {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 40%;
   }
+
 
   .summary {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 200px;
     width: 100%;
-    justify-content: space-around;
+
     align-items: center;
   }
   .fa-icon {
-    padding-left: 45%;
+    padding-left: 30%;
+    padding-top: 20%;
   }
 
   .icon {
@@ -153,7 +153,7 @@
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 30px;
     text-align: center;
   }

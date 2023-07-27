@@ -63,7 +63,7 @@
   @media only screen and (max-width: 600px) {
 
     .links {
-      visibility: hidden;
+      display: none;
     }
 
     .mobile {
