@@ -1,5 +1,4 @@
 <script>
-
   import Navbar from "./Navbar.svelte";
 </script>
 
@@ -11,9 +10,6 @@
       <div class="header-logo">
         <h1>CHEZ COCO</h1>
       </div>
-      <div class="arrow">
-        <i class="fa-regular fa-arrow-down fa-bounce fa-3x" style="color: #ffffff;"></i>
-      </div>
       <div class="summary">
         <h3>
           Une boutique familliale mettant en avant l'art du cuir, du fusing et
@@ -21,13 +17,19 @@
         </h3>
       </div>
       <div class="border" />
+      <div class="arrow">
+        <i
+          class="fa-regular fa-arrow-down fa-bounce fa-3x"
+          style="color: #ffffff;"
+        />
+      </div>
     </div>
     <div class="main">
       <div class="left">
         <img class="main-photo" src="IMG_6228.jpeg" alt="Giuseppe" />
       </div>
 
-      <div  class="right">
+      <div class="right">
         <p>
           Chez coco est une boutique familiale, auparavant tenue par Giuseppe
           Coppola et sous le nom de « Galerie d’Art » depuis 35 ans dans tous
@@ -35,6 +37,7 @@
           créations artisanales, et le fusing. Implantée sur Dinan depuis 14
           ans, elle à su se developper en proposition.
         </p>
+        
         <p>
           Aujourd’hui cette boutique à été reprise par Chloé et Elodie Cornec -
           Coppola, ses filles. Elles ont agrandit la boutique, en créant
@@ -47,7 +50,10 @@
     </div>
 
     <div class="main">
-      <div class="right">
+      <div class="left">
+        <img class="main-photo" src="IMG_5800.jpeg" alt="devanture" />
+      </div>
+            <div class="right">
         <p>
           Chez coco est maintenant repris par Chloé 19 ans et Elodie 23 ans,
           deux artistes couturières aimant les loisirs créatifs. Elle est
@@ -64,10 +70,6 @@
           venir...
         </p>
       </div>
-
-      <div class="left">
-        <img class="main-photo" src="IMG_5800.jpeg" alt="devanture" />
-      </div>
     </div>
 
     <div class="main">
@@ -76,133 +78,136 @@
       </div>
 
       <div class="right">
-        <p class="title">Où nous-trouver ? </p>
+        <p class="title">Où nous-trouver ?</p>
         <p>
-          14 rue de l’horloge 22100 Dinan<br>  En face de la tour de l’horloge
-          Possibilité de se garer place Duguesclin sauf le jeudi jour de marché.
+          14 rue de l’horloge 22100 Dinan<br /> En face de la tour de l’horloge Possibilité
+          de se garer place Duguesclin sauf le jeudi jour de marché.
         </p>
         <p class="title">Horaires :</p>
         <p>
-          Lundi 11h -18h30 <br> Mardi 11h - 18h30 <br>Mercredi 11h - 18h30<br> Jeudi : Fermé
-          <br>Vendredi 11h - 18h 30 <br>Samedi 11h - 18h 30 <br>Dimanche : Fermé
+          Lundi 11h -18h30 <br /> Mardi 11h - 18h30 <br />Mercredi 11h - 18h30<br
+          />
+          Jeudi : Fermé
+          <br />Vendredi 11h - 18h 30 <br />Samedi 11h - 18h 30 <br />Dimanche :
+          Fermé
         </p>
         <p class="title">Lien Maps ci-dessous :</p>
-        <a href="https://goo.gl/maps/kUKt1fMeCEdXaBYC6" ><i class="fa-solid fa-map-location-dot fa-beat-fade fa-4x" style="color: #ffffff;"></i></a> 
+        <a class="arrow" href="https://goo.gl/maps/kUKt1fMeCEdXaBYC6"
+          ><i
+            class="fa-solid fa-map-location-dot fa-beat-fade fa-4x"
+            style="color: #ffffff;"
+          /></a
+        >
       </div>
     </div>
   </div>
 </main>
 
 <style>
+  @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  main {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+}
   main {
     font-family: "Barlow";
     color: rgb(255, 255, 254);
+    overflow-x: hidden;
   }
   .shop_wrapper {
     padding: 0;
     margin: 0;
-    height: 500vh;
+    height: 430vh;
     background-color: rgb(25, 40, 31);
     background-size: 100% 100%;
     background-size: cover;
     background-attachment: fixed;
   }
 
+  /* HEADER PART */
+
   .header {
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-  }
-  .header-logo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    gap: 5%;
     align-items: center;
-    padding-top: 100px;
+  }
+
+  .header-logo {
+    font-size: 80px;
+    margin-top: 30%;
+    text-align: center;
   }
 
   .summary {
-    display: flex;
-    height: 200px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  h1 {
-    font-size: 200px;
+    padding-top: 20%;
+    width: 80%;
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .border {
     width: 30%;
+    border: 1px solid white;
+  }
+
+  /* MAIN PART */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+
+  }
+  .main-photo {
+    height: fit-content;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .left {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .right {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
   }
 
   .arrow {
-    position: absolute;
-    left: 80px;
-    bottom: 80px;
-  }
-
-  .border {
-    width: 200px;
-    border: 1px solid white;
-    margin-left: 43%;
-  }
-
-  /* SECOND SLIDE */
-
-  .main {
-    width: 100%;
-    height: 120vh;
     display: flex;
-  }
-  .left {
-    display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    width: 50%;
   }
 
-  .right {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .main-photo {
-    width: 479px;
-    height: 619px;
-  }
 
-  img {
-    border-radius: 25px;
-    border: 1px solid white;
-    padding: 20px;
-    object-fit: cover;
-  }
 
-  p {
-    width: 50%;
-    font-size: 22px;
-    justify-content: center;
-    align-items: center;
-    border-left: 1px solid white;
-    padding-left: 20px;
-    line-height: 1.2em;
-    margin-top: 20px;
-  }
-  .title {
-    border: none;
-    text-decoration: underline;
-    
-  }
-
-  a {
-    padding-top: 30px;
-  }
 </style>
