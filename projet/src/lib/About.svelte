@@ -110,6 +110,8 @@ import Navbar from "./Navbar.svelte";
 </main>
 
 <style>
+
+
   main {
     font-family: "Barlow";
     color: rgb(255, 255, 254);
@@ -162,6 +164,8 @@ import Navbar from "./Navbar.svelte";
     text-align: center;
   }
 
+  /* MAIN PART */
+
   .main {
     display: flex;
     flex-wrap: wrap;
@@ -204,4 +208,24 @@ import Navbar from "./Navbar.svelte";
     width: 10%;
     margin-left: 45%;
   }
+
+  @media (min-width:743px) {
+  
+  .summary {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-intro {
+    margin-bottom: 10%;
+  }
+  .fa-icon {
+    padding-left: 45%;
+    padding-top: 20%;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
 </style>
