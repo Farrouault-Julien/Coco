@@ -44,7 +44,6 @@
           </div>
         </div>
       </div>
-      <div class="border" />
     </div>
     
     <div class="main">
