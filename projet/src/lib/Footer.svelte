@@ -78,4 +78,6 @@
         text-decoration: none;
         color: rgb(255, 255, 254);
     }
+
+    p {text-align: center;}
 </style>

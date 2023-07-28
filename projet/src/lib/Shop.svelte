@@ -1,6 +1,6 @@
 <script>
   import Footer from "./Footer.svelte";
-import Navbar from "./Navbar.svelte";
+  import Navbar from "./Navbar.svelte";
 </script>
 
 <main>
@@ -38,7 +38,7 @@ import Navbar from "./Navbar.svelte";
           créations artisanales, et le fusing. Implantée sur Dinan depuis 14
           ans, elle à su se developper en proposition.
         </p>
-        
+
         <p>
           Aujourd’hui cette boutique à été reprise par Chloé et Elodie Cornec -
           Coppola, ses filles. Elles ont agrandit la boutique, en créant
@@ -54,7 +54,7 @@ import Navbar from "./Navbar.svelte";
       <div class="left">
         <img class="main-photo" src="IMG_5800.jpeg" alt="devanture" />
       </div>
-            <div class="right">
+      <div class="right">
         <p>
           Chez coco est maintenant repris par Chloé 19 ans et Elodie 23 ans,
           deux artistes couturières aimant les loisirs créatifs. Elle est
@@ -101,23 +101,22 @@ import Navbar from "./Navbar.svelte";
         >
       </div>
     </div>
-    <Footer></Footer>
+    <Footer />
   </div>
 </main>
 
 <style>
   @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-  main {
-    transform: rotate(-90deg);
-    transform-origin: left top;
-    width: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0;
+    main {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    }
   }
-
-}
   main {
     font-family: "Barlow";
     color: rgb(255, 255, 254);
@@ -169,13 +168,11 @@ import Navbar from "./Navbar.svelte";
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
-
   }
   .main-photo {
     height: fit-content;
     width: 100%;
     height: 100%;
-
   }
 
   img {
@@ -205,12 +202,8 @@ import Navbar from "./Navbar.svelte";
     text-align: center;
   }
 
-
   .arrow {
     display: flex;
     justify-content: center;
   }
-
-
-
 </style>
