@@ -1,5 +1,6 @@
 <script>
-  import Navbar from "./Navbar.svelte";
+  import Footer from "./Footer.svelte";
+import Navbar from "./Navbar.svelte";
 </script>
 
 <main>
@@ -100,6 +101,7 @@
         >
       </div>
     </div>
+    <Footer></Footer>
   </div>
 </main>
 
@@ -124,7 +126,7 @@
   .shop_wrapper {
     padding: 0;
     margin: 0;
-    height: 430vh;
+    height: 480vh;
     background-color: rgb(25, 40, 31);
     background-size: 100% 100%;
     background-size: cover;
@@ -202,6 +204,7 @@
     padding-right: 20px;
     text-align: center;
   }
+
 
   .arrow {
     display: flex;
