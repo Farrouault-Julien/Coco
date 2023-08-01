@@ -157,6 +157,7 @@
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
+    margin-bottom: 10%;
   }
   .main-photo {
     height: fit-content;
