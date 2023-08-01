@@ -106,17 +106,6 @@
 </main>
 
 <style>
-  @media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
-    main {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vh;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
-    }
-  }
   main {
     font-family: "Barlow";
     color: rgb(255, 255, 254);
@@ -125,7 +114,7 @@
   .shop_wrapper {
     padding: 0;
     margin: 0;
-    height: 480vh;
+    height: 500vh;
     background-color: rgb(25, 40, 31);
     background-size: 100% 100%;
     background-size: cover;
@@ -205,5 +194,74 @@
   .arrow {
     display: flex;
     justify-content: center;
+  }
+
+  @media (min-width: 743px) {
+
+    .shop_wrapper {
+      height: 580vh;
+    }
+    .header {
+      height: 100vh;
+      
+    }
+    .header-logo {
+      margin-top: 10%;
+    }
+
+    h1 {
+      font-size: 150px;
+    }
+    .summary {
+      padding-top: 10%;
+    }
+ /* SECOND SLIDE */
+    .main {
+      width: 100%;
+      margin-top: 10%;
+      height: 120vh;
+      display: flex;
+    }
+    .left {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+    }
+    .right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .main-photo {
+      width: 479px;
+      height: 619px;
+    }
+    img {
+      border-radius: 25px;
+      border: 1px solid white;
+      padding: 20px;
+      object-fit: cover;
+    }
+    p {
+      width: 50%;
+      font-size: 22px;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid white;
+      padding-left: 20px;
+      line-height: 1.2em;
+      margin-top: 20px;
+    }
+    .title {
+      border: none;
+      text-decoration: underline;
+    }
+    a {
+      padding-top: 30px;
+    }
   }
 </style>

@@ -1,6 +1,6 @@
 <script>
   import Footer from "./Footer.svelte";
-import Navbar from "./Navbar.svelte";
+  import Navbar from "./Navbar.svelte";
 </script>
 
 <main>
@@ -46,7 +46,7 @@ import Navbar from "./Navbar.svelte";
         </div>
       </div>
     </div>
-    
+
     <div class="main">
       <div class="left">
         <img class="main-photo" src="IMG_1122.png" alt="Giuseppe" />
@@ -61,7 +61,7 @@ import Navbar from "./Navbar.svelte";
           étaient devenue sa passion. Au fur et à mesure elle à su développer
           cette passion en créant cette marque.
         </p>
-        <div class="border"></div>
+        <div class="border" />
       </div>
     </div>
 
@@ -78,7 +78,7 @@ import Navbar from "./Navbar.svelte";
           mains avec des matières premières récupérée. Dans le but de respecter
           notre planète.
         </p>
-        <div class="border"></div>
+        <div class="border" />
       </div>
     </div>
 
@@ -102,16 +102,14 @@ import Navbar from "./Navbar.svelte";
           @cocoprendlethe Le mail pour la contacter : elodie.cornec@hotmail.fr
           0672512390
         </p>
-        <div class="border"></div>
+        <div class="border" />
       </div>
     </div>
-    <Footer></Footer>
+    <Footer />
   </div>
 </main>
 
 <style>
-
-
   main {
     font-family: "Barlow";
     color: rgb(255, 255, 254);
@@ -138,7 +136,6 @@ import Navbar from "./Navbar.svelte";
     font-size: 45px;
     margin-bottom: 40%;
   }
-
 
   .summary {
     display: flex;
@@ -204,28 +201,72 @@ import Navbar from "./Navbar.svelte";
     text-align: center;
   }
   .border {
-    border: 1px solid white;
-    width: 10%;
-    margin-left: 45%;
+    display: none;
   }
 
-  @media (min-width:743px) {
-  
-  .summary {
-    display: flex;
-    flex-direction: row;
-  }
+  @media (min-width: 743px) {
+    .summary {
+      display: flex;
+      flex-direction: row;
+    }
 
-  .header-intro {
-    margin-bottom: 10%;
-  }
-  .fa-icon {
-    padding-left: 45%;
-    padding-top: 20%;
-  }
+    .header-intro {
+      margin-bottom: 10%;
+    }
+    .fa-icon {
+      padding-left: 45%;
+      padding-top: 20%;
+    }
 
-  h3 {
-    font-size: 20px;
+    h3 {
+      font-size: 20px;
+    }
+    /* SECOND SLIDE */
+    .main {
+      width: 100%;
+      height: 120vh;
+      display: flex;
+    }
+    .left {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+    }
+    .right {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .main-photo {
+      width: 479px;
+      height: 619px;
+    }
+    img {
+      border-radius: 25px;
+      border: 1px solid white;
+      padding: 20px;
+      object-fit: cover;
+    }
+    p {
+      width: 50%;
+      font-size: 22px;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid white;
+      padding-left: 20px;
+      line-height: 1.2em;
+      margin-top: 20px;
+    }
+    .title {
+      border: none;
+      text-decoration: underline;
+    }
+    a {
+      padding-top: 30px;
+    }
   }
-}
 </style>
