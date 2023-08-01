@@ -12,7 +12,7 @@
         <div class="contact-bloc">
         <h3>En vente chez Soleil noir friperie :</h3>
         <h4>3 rue pont aux Foulons à Rennes</h4>
-        <a href="#" />
+
       </div>
       <div class="contact-bloc">
         <h3>
@@ -20,7 +20,7 @@
           22100 Dinan
         </h3>
         <h4>lien vers Maps ci-dessous :</h4>
-        <a href="#" />
+
       </div>
       <div class="contact-bloc">
         <h3>
@@ -28,7 +28,6 @@
           @cocoprendlethe
         </h3>
         <h4>lien vers l'instagram d'Élodie</h4>
-        <a href="#" />
         <h4>mail :<mailto /></h4>
         <h4>tel :</h4>
       </div>

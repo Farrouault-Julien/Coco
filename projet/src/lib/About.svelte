@@ -261,12 +261,5 @@
       line-height: 1.2em;
       margin-top: 20px;
     }
-    .title {
-      border: none;
-      text-decoration: underline;
-    }
-    a {
-      padding-top: 30px;
-    }
   }
 </style>

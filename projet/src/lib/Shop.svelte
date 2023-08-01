@@ -200,7 +200,7 @@
   @media (min-width: 743px) {
 
     .shop_wrapper {
-      height: 580vh;
+      height: 610vh;
     }
     .header {
       height: 100vh;
@@ -264,5 +264,7 @@
     a {
       padding-top: 30px;
     }
+
+
   }
 </style>
