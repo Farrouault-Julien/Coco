@@ -6,6 +6,7 @@
   import Work from "./lib/Work.svelte";
   import Shop from "./lib/Shop.svelte"
   import Mobile from './lib/Mobile.svelte';
+  import NotFound from './lib/NotFound.svelte';
 
   const routes = {
     '/': Ilot,
@@ -14,6 +15,7 @@
     '/contact': Contact,
     '/shop' : Shop,
     '/menu' : Mobile,
+    '*' : NotFound
   }
 
 </script>
