@@ -200,7 +200,7 @@
   @media (min-width: 743px) {
 
     .shop_wrapper {
-      height: 610vh;
+      height: 630vh;
     }
     .header {
       height: 100vh;
