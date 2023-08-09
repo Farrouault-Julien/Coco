@@ -41,11 +41,10 @@
 
 <style>
 
-@media only screen and (max-width: 600px) {
   .contact-main-bloc {
     flex-direction: column;
   }
-}
+
   main {
     font-family: "Barlow";
     color: rgb(255, 255, 254);
@@ -68,7 +67,7 @@
   .contact-bloc {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 40%;
+    width: 100%;
     font-size: 15px;
   }
 
@@ -79,13 +78,18 @@
   h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 20px;
     
   }
 
+  h4 {
+    text-align: center;
+  }
+
   .info-main-bloc {
-    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
     border-radius: 25px;
-    border: 1px solid rgb(255, 255, 254);
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 40px;
@@ -99,6 +103,7 @@
 
   .arrow {
     padding-top: 10px;
+    margin-left: 40%;
   }
 
   #before-icon {
@@ -109,7 +114,7 @@
       width: 100%;
     }
     h3 {
-      text-align: start; 
+      text-align: center; 
       font-size: 20px;
       font-weight: bold;
     }
@@ -117,10 +122,8 @@
       font-size: 20px;
     }
     .arrow {
-      margin-left: 30%;
+      margin-left: 45%;
     }
-
-    
   }
 
 </style>
