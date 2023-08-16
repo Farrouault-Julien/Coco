@@ -49,17 +49,13 @@
 
     <div class="main">
       <div class="left">
-        <img class="main-photo" src="IMG_1122.png" alt="Giuseppe" />
+        <img class="main-photo" src="flower-bag.jpg" alt="flower-bag" />
       </div>
 
       <div class="right">
         <p>
-          Coco prend le thé est une marque crée par Elodie Cornec 23 ans. Depuis
-          petite elodie aime créer de ses mains. Manuelle il lui est venue
-          naturellement le tricot, le crochet et la couture. Après une école de
-          design Produit, elle s’est rendue compte que ces arts autour du fil
-          étaient devenue sa passion. Au fur et à mesure elle à su développer
-          cette passion en créant cette marque.
+          Cocoprendlethe est une marque indépendante d’upcycling qui prône le recyclage. 
+          Les créations sont réfléchis dans le but d’améliorer le confort de tous les jours.
         </p>
         <div class="border" />
       </div>
@@ -67,11 +63,11 @@
 
     <div class="main">
       <div class="left">
-        <img class="main-photo" src="IMG_5800.jpeg" alt="devanture" />
+        <img class="main-photo" src="pearl-gloves.jpg" alt="pearl-gloves" />
       </div>
       <div class="right">
         <p>
-          Cette marque eco-responssable, crée des pièces uniques. Les laines et
+          Cette marque eco-responsable, crée des pièces uniques. Les laines et
           les tissus sont uniques et chinés dans différentes ressourcerie ou
           bien récupérées de vieux vêtements. Bonnets, portes gourdes,
           pochettes, top bag, sac bandoulière, écharpe, et mitaines sont fait

@@ -3,7 +3,6 @@
   import About from "./lib/About.svelte";
   import Contact from "./lib/Contact.svelte";
   import Ilot from "./lib/ilot.svelte";
-  import Work from "./lib/Work.svelte";
   import Shop from "./lib/Shop.svelte"
   import Mobile from './lib/Mobile.svelte';
   import NotFound from './lib/NotFound.svelte';
@@ -11,7 +10,6 @@
   const routes = {
     '/': Ilot,
     '/about': About,
-    '/work': Work,
     '/contact': Contact,
     '/shop' : Shop,
     '/menu' : Mobile,

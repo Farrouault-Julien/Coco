@@ -39,14 +39,6 @@
           ans, elle à su se developper en proposition.
         </p>
 
-        <p>
-          Aujourd’hui cette boutique à été reprise par Chloé et Elodie Cornec -
-          Coppola, ses filles. Elles ont agrandit la boutique, en créant
-          différents espaces distinct tout en gardant le savoir faire de
-          l’enseigne. Le premier partie expose l’art du cuir et du verre, et la
-          seconde propose un lieu d’exposition de jeunes créateurs dont une
-          friperie, et une brocante.
-        </p>
       </div>
     </div>
 
@@ -56,20 +48,14 @@
       </div>
       <div class="right">
         <p>
-          Chez coco est maintenant repris par Chloé 19 ans et Elodie 23 ans,
-          deux artistes couturières aimant les loisirs créatifs. Elle est
-          devenue une boutique de petits créateurs tout en gardant l’art du cuir
-          fait sur mesure et du verre transmis par leurs père. Baignant dans
-          l’art, elles ont ajouté leurs créations au lieu, vous y trouverez des
-          sacs fait main, des mitaines tricotés, des bonnets en crochets ainsi
-          que des portes gourdes etc...
+          Aujourd’hui cette boutique à été reprise par Chloé et Elodie Cornec -
+          Coppola, ses filles. Elles ont agrandit la boutique, en créant
+          différents espaces distinct tout en gardant le savoir faire de
+          l’enseigne. Le premier partie expose l’art du cuir et du verre, et la
+          seconde propose un lieu d’exposition de jeunes créateurs dont une
+          friperie, et une brocante.
         </p>
-        <p>
-          Vous y retrouverez également des créations de Clement Coppola autour
-          du verre. De la photographie fait par Gregoire Garnier. Ainsi que des
-          illustrations d’Adele Vuillemot une graphiste. Et pleins d’autres à
-          venir...
-        </p>
+ 
       </div>
     </div>
 
