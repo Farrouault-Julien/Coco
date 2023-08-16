@@ -1,5 +1,5 @@
 <script>
-  import Navbar from "./Navbar.svelte";
+  import Saos from "saos";
   import { link } from "svelte-spa-router";
 </script>
 
@@ -13,14 +13,14 @@
         <a href="/about" use:link><li class="links">Qui-sommes-nous</li></a>
         <a href="/contact" use:link><li class="links">Contact</li></a>
         <a href="/shop" use:link><li class="links">Chez Coco</li></a>
-
       </ul>
-
     </div>
   </div>
 </main>
 
 <style>
+
+
 
   ul {
     display: flex;
