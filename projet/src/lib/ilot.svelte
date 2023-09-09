@@ -1,5 +1,6 @@
 <script>
   import { link } from "svelte-spa-router";
+  import Carousel from "./Carousel.svelte";
 </script>
 
 <main>
@@ -13,6 +14,8 @@
       </ul>
     </div>
   </div>
+
+  <Carousel/>
 </main>
 
 <style>

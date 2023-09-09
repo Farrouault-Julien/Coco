@@ -1,4 +1,5 @@
 <script>
+  import Carousel from "./Carousel.svelte";
   import Footer from "./Footer.svelte";
   import Navbar from "./Navbar.svelte";
 </script>
@@ -107,6 +108,7 @@
     </div>
     <Footer />
   </div>
+
 </main>
 
 <style>
