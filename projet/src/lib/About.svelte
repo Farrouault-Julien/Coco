@@ -90,8 +90,12 @@
         </p>
         <p>
           Ou bien sur Dinan dans la boutique chez coco au 14 rue de l’horloge
-          22100 Dinan Lien de google plan :
-          https://goo.gl/maps/kUKt1fMeCEdXaBYC6
+          22100 Dinan Lien de google plan :<br>
+          <a class="arrow" href="https://goo.gl/maps/kUKt1fMeCEdXaBYC6"
+          ><i
+            class="fa-solid fa-map-location-dot fa-beat-fade fa-3x"
+            style="color: #ffffff;"
+          /></a>
         </p>
         <p>
           Et également prendre des commandes sur Instagram en Dm sur
@@ -256,6 +260,9 @@
       padding-left: 20px;
       line-height: 1.2em;
       margin-top: 20px;
+    }
+    i {
+      padding-top: 20px;
     }
   }
 </style>
